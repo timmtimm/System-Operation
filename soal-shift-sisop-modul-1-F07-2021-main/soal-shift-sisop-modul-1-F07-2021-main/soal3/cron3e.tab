@@ -1,0 +1,5 @@
+#zip
+0 7 * * 1-5 /home/Downloads/Downloads/soal-shift-sisop-modul-1-F07-2021/soal3d.sh
+
+#unzip
+0 18 * * 1-5 pass=$(date +'%m%d%Y'); unzip -P "$pass" Koleksi.zip; rm Koleksi.zip
